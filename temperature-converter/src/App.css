@@ -1,4 +1,15 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
+.Converter {
+ 
+  transform: translate(-50%, -50%);
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 3px solid black;
+}
