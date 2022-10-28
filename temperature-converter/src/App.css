@@ -19,15 +19,19 @@ body {
   display: flex;
   background-color: white;
   border-radius: 7px;
+  flex-wrap: wrap;
 }
 
 .temperaturebox, .typebox {
   display: flex;
   flex-direction: column;
+  
   width: 30%;
   padding: 2px;
+  margin-top: 20px;
 
 }
+
 
 label {
   font-size: 12px;
@@ -35,20 +39,35 @@ label {
 }
 
 button {
-  display: flex;
-  justify-content: end;
-  margin: 20%;
-  padding: 10px;
-  background-color: blue;
-  font-size: 17px;
-  color: antiquewhite;
-  border-radius: 7px;
-
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25x;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+  justify-content: center;
 
 }
 
 .buttonbox {
-  width: 35%;
+  width: 100%;
+  max-width: 150px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin: 20px 10px 5px 10px;
+  padding-left: 4px;
+  
+  display: flex;
 }
 
 input, select {
@@ -57,6 +76,23 @@ input, select {
   border: 1px solid gray;
   border-radius: 7px;
   
+}
+
+.results {
+  visibility:hidden;
+}
+
+
+
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 

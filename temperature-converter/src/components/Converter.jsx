@@ -18,6 +18,10 @@ const Converter = () => {
       <div className="buttonbox">
         <button className="convertbutton">Convert</button>
       </div>
+      <div className="results">
+            <h1>Results</h1>
+      </div>
+      
     </div>)
 }
 
