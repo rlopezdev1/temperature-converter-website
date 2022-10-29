@@ -26,7 +26,7 @@ const Converter = () => {
       
 
       if(type==="" || temp==="" || isNaN(temp)){
-        const errornum = <h4 style={{visibility: 'visible'}}>Enter valid input</h4>;
+        const errornum = <h4 style={{visibility: 'visible'}}>Enter valid type and degrees</h4>;
         root.render(errornum);
 
       } else if(type==="Fahrenheit"){
@@ -70,11 +70,6 @@ const Converter = () => {
       
     </div>)
 }
-
-
-
-
-
 
 
 
