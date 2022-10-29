@@ -6,8 +6,6 @@ const Converter = () => {
     const [temp , setTemp] = useState("");
     const [type, setType] = useState("");
 
-
-
     function handleChange(event){
       const { name, value } = event.target;
     
@@ -27,8 +25,8 @@ const Converter = () => {
       );
       
 
-      if(type==""){
-        const errornum = <h4 style={{visibility: 'visible'}}>Enter a valid number</h4>;
+      if(type=="" || temp=="" || isNaN(temp)){
+        const errornum = <h4 style={{visibility: 'visible'}}>Enter valid input</h4>;
         root.render(errornum);
 
       } else if(type=="Fahrenheit"){
@@ -45,9 +43,7 @@ const Converter = () => {
         
       } 
        
-     
-      
-
+    
       
     }
 
