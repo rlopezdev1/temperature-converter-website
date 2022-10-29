@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/temperature-converter-website/static/css/main.a9e2d047.css",
+    "main.js": "/temperature-converter-website/static/js/main.70407c27.js",
+    "index.html": "/temperature-converter-website/index.html",
+    "main.a9e2d047.css.map": "/temperature-converter-website/static/css/main.a9e2d047.css.map",
+    "main.70407c27.js.map": "/temperature-converter-website/static/js/main.70407c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9e2d047.css",
+    "static/js/main.70407c27.js"
+  ]
+}
