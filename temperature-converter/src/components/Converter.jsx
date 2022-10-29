@@ -7,14 +7,14 @@ const Converter = () => {
     const [type, setType] = useState("");
 
     function handleChange(event){
-      const { name, value } = event.target;
+      const { value } = event.target;
     
       setTemp(value)
 
     }
 
     function handleType(event){
-      const { name, value } = event.target;
+      const { value } = event.target;
       setType(value);
     }
 
@@ -25,11 +25,11 @@ const Converter = () => {
       );
       
 
-      if(type=="" || temp=="" || isNaN(temp)){
+      if(type==="" || temp==="" || isNaN(temp)){
         const errornum = <h4 style={{visibility: 'visible'}}>Enter valid input</h4>;
         root.render(errornum);
 
-      } else if(type=="Fahrenheit"){
+      } else if(type==="Fahrenheit"){
         var numCel = parseFloat(temp);
         results = ((numCel - 32)/1.8).toFixed(2) + '\u00B0 Celsious';
         const element = <h2 style={{visibility: 'visible'}}>{results}</h2>;
