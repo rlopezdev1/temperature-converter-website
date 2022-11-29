@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color:#FFF8DC;
 }
 
 .Converter {
@@ -20,6 +20,7 @@ body {
   background-color: white;
   border-radius: 7px;
   flex-wrap: wrap;
+  background-color: blanchedalmond;
 }
 
 .temperaturebox, .typebox {
@@ -90,6 +91,16 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     display: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+h1 {
+ text-align: center;
+}
+
+.heading {
+  position: relative;
+  margin-top: 15%;
+  color: #DC143C;
 }
 
 

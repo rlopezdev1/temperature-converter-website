@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from 'react-dom/client';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTemperatureArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const Converter = () => {
     const [temp , setTemp] = useState("");
